@@ -1,4 +1,4 @@
-Risky Business
+# Risky Analysis 
 
 ![Credit Risk](Images/credit-risk.jpg)
 
@@ -12,8 +12,20 @@ I have built and evaluated several machine-learning models to predict credit ris
 2. Ensemble-Learning
 
 - - -
+## Prerequisites
+#### numpy
 
-#### Resampling
+#### pandas
+
+#### pathlib
+
+#### sklearn
+
+#### collections
+
+#### imblearn
+
+## Resampling
 
 I used the [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and build and evaluate logistic regression classifiers using the resampled data.
 then:
@@ -29,7 +41,7 @@ For each of the above, I :
 3. Calculated the `confusion matrix` from `sklearn.metrics`.
 4. Printed the `imbalanced classification report` from `imblearn.metrics`.
 
-#### Ensemble Learning
+## Ensemble Learning
 
 In this section, I trained and compared two different ensemble classifiers to predict loan risk and evaluate each model. I used the `balanced random forest classifier` and the `easy ensemble AdaBoost classifier`.
 
@@ -41,3 +53,6 @@ for each model, I:
 4. Generated a classification report using the `imbalanced_classification_report` from imbalanced learn.
 5. For the balanced random forest classifier only, printed the feature importance sorted in descending order (most important feature to least important) along with the feature score.
 
+# Built With
+
+### Python
