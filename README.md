@@ -34,7 +34,7 @@ then:
 2. Undersample the data using the `Cluster Centroids` algorithm.
 3. Over- and under-sample using a combination `SMOTEENN` algorithm.
 
-For each of the above, I :
+For each of the above, I :   
 
 1. Trained a `logistic regression classifier` from `sklearn.linear_model` using the resampled data.
 2. Calculated the `balanced accuracy score` from `sklearn.metrics`.
