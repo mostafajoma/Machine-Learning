@@ -25,7 +25,7 @@ I have built and evaluated several machine-learning models to predict credit ris
 
 #### imblearn
 
-## Resampling
+## Resampling   
 
 I used the [imbalanced learn](https://imbalanced-learn.readthedocs.io) library to resample the LendingClub data and build and evaluate logistic regression classifiers using the resampled data.
 then:
